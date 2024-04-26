@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin-top: 20%;
+  width: 350px;
+  height: 500px;
+  border-radius: 14px;
+  border: 2px solid white;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ovol {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #cacaca;
+  border: 2px solid white;
+  color: #112;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+.orenge {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #cacaca;
+  border: 2px solid white;
+  color: #112;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.switch {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.switch > button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  border: 2px solid #112;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.vaqt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  margin-bottom: 30px;
+  color: #112;
+  border-radius: 10px solid rgb(74, 10, 10);
+}
+.sana{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #112;
+}
